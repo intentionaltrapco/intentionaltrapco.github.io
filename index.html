@@ -15,14 +15,21 @@
     }
 
     header {
-      padding: 60px 20px 30px;
+      padding: 50px 20px 30px;
       background: linear-gradient(145deg, #000000, #111111);
+    }
+
+    .logo {
+      font-size: 4rem;
+      font-weight: bold;
       color: gold;
+      letter-spacing: 2px;
+      margin-bottom: 10px;
     }
 
     h1 {
-      font-size: 2.8rem;
-      margin-bottom: 10px;
+      font-size: 2.2rem;
+      margin: 10px 0 5px;
     }
 
     h2 {
@@ -49,6 +56,42 @@
       max-width: 800px;
     }
 
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 20px;
+      padding: 20px 0;
+    }
+
+    .product-grid img {
+      width: 100%;
+      border-radius: 8px;
+      border: 2px solid #444;
+    }
+
+    form {
+      margin-top: 30px;
+    }
+
+    input[type="email"] {
+      padding: 10px;
+      width: 250px;
+      max-width: 80%;
+      border-radius: 4px;
+      border: none;
+      margin-bottom: 10px;
+    }
+
+    input[type="submit"] {
+      background: gold;
+      color: black;
+      font-weight: bold;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
     footer {
       margin-top: 60px;
       padding: 30px;
@@ -65,6 +108,7 @@
 </head>
 <body>
   <header>
+    <div class="logo">IB</div>
     <h1>INTENTIONAL TRAP CO.</h1>
     <h2>Align your actions and decisions with your beliefs — creating a sense of authenticity.</h2>
     <button>Shop the Drop</button>
@@ -73,14 +117,28 @@
   <section>
     <h2>What We Stand For</h2>
     <p>
-      Intentional Trap Co. isn’t just clothing — it’s a mindset. 
+      Intentional Trap Co. isn’t just clothing — it’s a mindset.<br>
       Every thread represents alignment, authenticity, and elevation from the system we were taught to trust.
     </p>
   </section>
 
   <section>
-    <h2>Connect With Us</h2>
-    <p>Follow on Instagram: <a href="https://instagram.com/intentionaltrapco" target="_blank">@intentionaltrapco</a></p>
+    <h2>Product Preview</h2>
+    <div class="product-grid">
+      <img src="https://via.placeholder.com/300x400?text=Bodysuit+Mockup" alt="Bodysuit">
+      <img src="https://via.placeholder.com/300x400?text=TRAP+Tee" alt="T-shirt">
+      <img src="https://via.placeholder.com/300x400?text=Hoodie+Mockup" alt="Hoodie">
+    </div>
+  </section>
+
+  <section>
+    <h2>Join the Movement</h2>
+    <form action="https://docs.google.com/forms/d/e/1FAIpQLSd_Your_Form_Link_Here/formResponse" method="POST" target="_blank">
+      <input type="email" name="email" placeholder="Enter your email" required />
+      <br>
+      <input type="submit" value="Sign Up" />
+    </form>
+    <p>Follow us on Instagram: <a href="https://instagram.com/intentionaltrapco" target="_blank">@intentionaltrapco</a></p>
     <p>Email: intentionaltrapco@gmail.com</p>
   </section>
 
