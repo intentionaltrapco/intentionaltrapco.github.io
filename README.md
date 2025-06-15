@@ -1,2 +1,150 @@
-# intentionaltrapco.github.io
-Landing page for Intentional Trap Co.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Intentional Trap Co.</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial Black', sans-serif;
+      background-color: #000;
+      color: white;
+      text-align: center;
+      padding: 0 20px;
+    }
+
+    header {
+      padding: 50px 20px 30px;
+      background: linear-gradient(145deg, #000000, #111111);
+    }
+
+    .logo {
+      font-size: 5rem;
+      font-weight: bold;
+      color: gold;
+      margin-bottom: 5px;
+      letter-spacing: 3px;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      margin: 10px 0 5px;
+    }
+
+    h2 {
+      font-weight: normal;
+      color: #ccc;
+      font-size: 1.1rem;
+      margin-top: 0;
+    }
+
+    button {
+      background: gold;
+      color: black;
+      font-weight: bold;
+      border: none;
+      padding: 12px 24px;
+      font-size: 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    section {
+      margin: 60px auto;
+      max-width: 800px;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 20px;
+      padding: 20px 0;
+    }
+
+    .product-grid img {
+      width: 100%;
+      border-radius: 8px;
+      border: 2px solid #444;
+    }
+
+    form {
+      margin-top: 30px;
+    }
+
+    input[type="email"] {
+      padding: 10px;
+      width: 250px;
+      max-width: 80%;
+      border-radius: 4px;
+      border: none;
+      margin-bottom: 10px;
+    }
+
+    input[type="submit"] {
+      background: gold;
+      color: black;
+      font-weight: bold;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    footer {
+      margin-top: 60px;
+      padding: 30px;
+      background: #111;
+      font-size: 0.9rem;
+      color: #999;
+    }
+
+    a {
+      color: gold;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">IB</div>
+    <h1>INTENTIONAL TRAP CO.</h1>
+    <h2>Align your actions and decisions with your beliefs — creating a sense of authenticity.</h2>
+    <button>Shop the Drop</button>
+  </header>
+
+  <section>
+    <h2>What We Stand For</h2>
+    <p>
+      Intentional Trap Co. isn’t just clothing — it’s a mindset.<br>
+      Every thread represents alignment, authenticity, and elevation from the system we were taught to trust.
+    </p>
+  </section>
+
+  <section>
+    <h2>Product Preview</h2>
+    <div class="product-grid">
+      <img src="https://via.placeholder.com/300x400?text=Bodysuit+Mockup" alt="Bodysuit">
+      <img src="https://via.placeholder.com/300x400?text=TRAP+Tee" alt="T-shirt">
+      <img src="https://via.placeholder.com/300x400?text=Hoodie+Mockup" alt="Hoodie">
+    </div>
+  </section>
+
+  <section>
+    <h2>Join the Movement</h2>
+    <form action="https://docs.google.com/forms/d/e/1FAIpQLSd_Your_Form_Link_Here/formResponse" method="POST" target="_blank">
+      <input type="email" name="email" placeholder="Enter your email" required />
+      <br>
+      <input type="submit" value="Sign Up" />
+    </form>
+    <p>Follow us on Instagram: <a href="https://instagram.com/intentionaltrapco" target="_blank">@intentionaltrapco</a></p>
+    <p>Email: intentionaltrapco@gmail.com</p>
+  </section>
+
+  <footer>
+    “TRAP the system. Free the soul.” <br>
+    © 2025 Intentional Trap Co.
+  </footer>
+</body>
+</html>
