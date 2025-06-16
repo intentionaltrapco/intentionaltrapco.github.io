@@ -132,15 +132,18 @@
   </section>
 
   <section>
-    <h2>Join the Movement</h2>
-    <form action="https://docs.google.com/forms/d/e/1FAIpQLSd_Your_Form_Link_Here/formResponse" method="POST" target="_blank">
-      <input type="email" name="email" placeholder="Enter your email" required />
-      <br>
-      <input type="submit" value="Sign Up" />
-    </form>
-    <p>Follow us on Instagram: <a href="https://instagram.com/intentionaltrapco" target="_blank">@intentionaltrapco</a></p>
-    <p>Email: intentionaltrapco@gmail.com</p>
-  </section>
+  <h2>Join the Movement</h2>
+  <iframe
+    src="YOUR_GOOGLE_FORM_SHORT_LINK/viewform?embedded=true"
+    width="100%"
+    height="600"
+    frameborder="0"
+    marginheight="0"
+    marginwidth="0">
+    Loading…
+  </iframe>
+  <p>Follow us on Instagram: <a href="https://instagram.com/intentionaltrapco" target="_blank">@intentionaltrapco</a></p>
+</section>
 
   <footer>
     “TRAP the system. Free the soul.” <br>
