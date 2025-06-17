@@ -146,7 +146,7 @@
 </section>
 
   <footer>
-    “TRAP the system. Free the soul.” <br>
+    “TRAP the system. Free the mind.” <br>
     © 2025 Intentional Trap Co.
   </footer>
 </body>
